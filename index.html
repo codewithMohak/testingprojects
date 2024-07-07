@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Subscription</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b06d54e95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get In Touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="5bd5bb1c-c3da-412e-b052-c21131138bb2">
+            <input type="text" name="name" class="contact-inputs" placeholder="Your Name" required>
+            <input type="email" name="email" class="contact-inputs" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
+            <button type="submit">Sumbit <i class="fa-solid fa-circle-arrow-right"></i></button>
+        </form>
+        <div class="contact-right">
+            <img src="img/right_img.png" >
+        </div>
+    </div>
+</body>
+</html>
